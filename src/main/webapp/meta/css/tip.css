@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* 提示框 add by li_xiaodong  */
+.nodata{text-align:center;padding:30px 0;}
+.nodata i{font-size:30px;}
+.nodata p{padding-left:10px;margin:5px;font-size:12px;}
+
+/*久久*/
+#sys_popmsg{width: 200px;height:auto;position: absolute;z-index:9999;top:20%;left:40%;position: fixed;text-align: center;background-color: #f6fef3;border:2px solid #93cd3f;background: #f6fef3;text-align: left;display: none;}
+#sys_popmsg td.img{padding:10px;padding-left: 50px; width: 44px;height: 44px;background: url("../images/success.png") center center no-repeat;}
+#sys_popmsg td.content{padding-right: 20px;font-weight:bold;  font-size:14px;}
+.sys_loading{position: absolute;left: 42%;top: 41%;display:none;}
+.sys_loading img{float: left;}
+.sys_loading_des{width: auto;height: 21px;font-size: 14px;font-weight: bold;float: left;margin-left: 5px;margin-top: 4px; color:#666;}
+.sys_masklock{position: absolute;left: 0px;top: 0px;width: 100%;height: 100%;overflow: hidden;z-index: 1984;background: #DCE2F1;filter: alpha(opacity = 60);opacity: 0.6;padding: 0px;margin: 0px;display: none;}
+.sysLoadingMinHeight{min-height:40px;}
+
+/* 锁屏 */
+/* .sys_loading{position:absolute;height:32px;opacity:1;width:32px;z-index:1;background:url(../images/loading.gif) no-repeat 0 0;display:block;overflow:hidden;text-indent:100%;white-space:nowrap;-webkit-backface-visibility:hidden;-webkit-animation:loading 1.6s steps(22) infinite;-moz-animation:loading 1.6s steps(22) infinite;-ms-animation:loading 1.6s steps(22) infinite;-o-animation:loading 1.6s steps(22) infinite;animation:loading 1.6s steps(22) infinite;-webkit-transition:opacity .4s ease-in-out .2s;-moz-transition:opacity .4s ease-in-out .2s;-ms-transition:opacity .4s ease-in-out .2s;-o-transition:opacity .4s ease-in-out .2s;transition:opacity .4s ease-in-out .2s;}
+
+.sys_masklock{width:100%;height:100%; background-color: rgba(0,0,0,0.35); opacity:0.8; position:absolute;left:0;top:0;margin:0;padding:0;overflow:hidden;display:none;} */
+.tip{margin-left:10px;line-height:30px;color:#DE1212;}
+.note{color:#999999;line-height:32px;}
+.verifycode{width:80px;height:30px;display:block;float:left;margin:1px 0;}
+.input-code{width:50px;height:30px;display:block;float:left;margin-left:5px;}
+.input-code input{padding:0;}
+.state-code{width:12px;margin-left:10px;}
+.state-code i{line-height:30px;}
+.text-center{text-align:center;}
+.text-left{text-align:left;}
+.text-right{text-align:right;}
+.pull-left{float:left;}
+.pull-right{float:right;}
+.mtip-success{padding:5px 60px 10px 60px;position:fixed;top:56px;left:50%;z-index:99999;background-color:#60aa17;border-radius:0 0 5px 5px;margin-left:-50px;color:#FFF;display:none;}
+.mtip-des{color:#FFF;margin-left:5px;}
+.hide{display:none;}
+.show{display:block;}
+.pos_rel{position:relative;}
+.placeholder{color:#999;}
+/* .sysLoadingMinHeight{min-height:230px;} */
+.sysBtnTip{position:absolute;top:-25px;padding:5px 20px;background-color:#000;opacity:0.7;border-radius:3px;color:#FFF;font-size:12px;display:none;}
+.sysBtnTip .arrow{position:absolute;background:url(../images/mtip-arrow.png) no-repeat;display:inline-block;width:11px;height:6px;bottom:-6px;left:45%;}
+.sysAlert{background-color:white;width:310px;padding:17px;text-align:center;overflow:hidden;}
+.showSweetAlert{-webkit-animation:showSweetAlert 0.3s;-moz-animation:showSweetAlert 0.3s;animation:showSweetAlert 0.3s;}
+.sysAlert .icon{margin:10px auto;position:relative;box-sizing:content-box;}
+.sysAlert h2{color:#575757;text-align:center;font-weight:600;text-transform:none;position:relative;margin:10px auto;font:14px/1.5 "Microsoft YaHei","Arial","STXihei","Helvetica";}
+.sysAlert p{margin:0 auto;}
+.sysAlert .error i{color:#F27474;}
+.sysAlert .warning i{color:#F8BB86;}
+.sysAlert .success i{color:#60aa17;}
+.sysAlert .btn{margin:0 auto;width:168px;}
+.sysAlert span{color:#fa943d;font-weight:bold;}
+.sysAlert i{text-align:center;font-size:60px;}
+.sysAlert a{color:#333;}
+
+
+.calendar-icon{background: url("../images/calendar-icon.png") no-repeat right;}
+
+.ui_buttons input{
+	height:30px;
+	cursor:pointer;
+}
+
+/*footer s*/
+.footer{width:100%;background:#eaedf4;padding:45px 0px 53px 0;text-align:center;color:#666;}
+/*footer e*/
+
+.win-close a{position:absolute;top:0;right:0;background-color:#f9f9f9;width:20px;text-align:center;color:#8E8E8E;}
+.win-close a:hover{text-decoration:none;background-color:#ececec;}
+
+.bind-e-box{width:358px;background:#f5f4f9;}
+.bind-e-box .pop-con{padding:20px;background:#fff;}

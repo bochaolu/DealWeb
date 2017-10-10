@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+        version="2.0">
+
+    <description>eju functions tld</description>
+    <display-name>JSTL functions</display-name>
+    <tlib-version>1.1</tlib-version>
+    <short-name>functions</short-name>
+    <uri>http://eju.com/sdk</uri>
+ <!--获取文件路径-->
+    <function>
+        <name>getFilePath</name>
+         <!-- <description>Deprecated</description> -->
+        <function-class>com.eju.deal.core.file.FileUtil</function-class>
+        <function-signature>java.lang.String getFilePath(java.lang.String)</function-signature>
+    </function>    
+ 
+    <function>
+        <name>getCheck</name>
+       <!--  <description>Deprecated</description> -->
+        <function-class>cn.com.eju.deal.common.util.DisplayUtil</function-class>
+        <function-signature>java.lang.String getCheck(java.lang.Integer,java.lang.Integer)</function-signature>
+    </function> 
+    
+     <function>
+        <name>fp</name>
+        <function-class>com.eju.deal.core.file.FileUtil</function-class>
+        <function-signature>java.lang.String getFilePath(java.lang.String)</function-signature>
+    </function>    
+ 
+ 
+      <function>
+        <name>ck</name>
+        <function-class>cn.com.eju.deal.common.util.DisplayUtil</function-class>
+        <function-signature>java.lang.String getCheck(java.lang.Integer,java.lang.Integer)</function-signature>
+    </function>  
+    
+    <function>
+        <name>cck</name>
+        <function-class>cn.com.eju.deal.common.util.DisplayUtil</function-class>
+        <function-signature>java.lang.String getIfContainCheck(java.lang.String,java.lang.Integer)</function-signature>
+    </function>  
+    
+      <function>
+        <name>sel</name>
+        <!-- <description>下拉是否选中</description> -->
+        <function-class>cn.com.eju.deal.common.util.DisplayUtil</function-class>
+        <function-signature>java.lang.String getSelected(java.lang.String,java.lang.String)</function-signature>
+    </function>     
+     <function>
+        <name>selCompare</name>
+        <!-- <description>下拉是否选中</description> -->
+        <function-class>cn.com.eju.deal.common.util.DisplayUtil</function-class>
+        <function-signature>java.lang.String getSelCompare(java.lang.Integer,java.lang.String)</function-signature>
+    </function> 
+ <!-- 时间格式化 start -->
+    <function>
+        <name>ymd</name>
+        <function-class>cn.com.eju.deal.common.util.DisplayUtil</function-class>
+        <function-signature>java.lang.String ymd(java.util.Date)</function-signature>
+    </function>    
+  
+    <function>
+        <name>y</name>
+        <function-class>cn.com.eju.deal.common.util.DisplayUtil</function-class>
+        <function-signature>java.lang.String year(java.util.Date)</function-signature>
+    </function>    
+    
+  <function>
+        <name>hm</name>
+        <function-class>cn.com.eju.deal.common.util.DisplayUtil</function-class>
+        <function-signature>java.lang.String ymdhm(java.util.Date)</function-signature>
+    </function>    
+
+  <function>
+        <name>hms</name>
+        <function-class>cn.com.eju.deal.common.util.DisplayUtil</function-class>
+        <function-signature>java.lang.String ymdhms(java.util.Date)</function-signature>
+    </function>    
+    
+    <function>
+        <name>hmsfs</name>
+        <function-class>cn.com.eju.deal.common.util.DisplayUtil</function-class>
+        <function-signature>java.lang.String ymdhmsfs(java.lang.String)</function-signature>
+    </function> 
+ 	<function>
+        <name>ymd2</name>
+        <function-class>cn.com.eju.deal.common.util.DisplayUtil</function-class>
+        <function-signature>java.lang.String ymd2(java.lang.String)</function-signature>
+    </function> 
+    <function>
+        <name>ymd3</name>
+        <function-class>cn.com.eju.deal.common.util.DisplayUtil</function-class>
+        <function-signature>java.lang.String ymd3(java.lang.String)</function-signature>
+    </function>   
+  <!-- 时间格式化 end -->
+  
+  <!-- 金额格式化 start -->
+  <function>
+        <name>mf</name>
+        <function-class>cn.com.eju.deal.common.util.DisplayUtil</function-class>
+        <function-signature>java.lang.String moneyFormate(java.math.BigDecimal)</function-signature>
+    </function>    
+    
+      <function>
+        <name>mf2</name>
+        <function-class>cn.com.eju.deal.common.util.DisplayUtil</function-class>
+        <function-signature>java.lang.String moneyFormate2(java.math.BigDecimal)</function-signature>
+    </function>  
+      <function>
+        <name>mf3</name>
+        <function-class>cn.com.eju.deal.common.util.DisplayUtil</function-class>
+        <function-signature>java.lang.String moneyFormate3(java.math.BigDecimal)</function-signature>
+    </function>  
+    <function>
+        <name>mf4</name>
+        <function-class>cn.com.eju.deal.common.util.DisplayUtil</function-class>
+        <function-signature>java.lang.String moneyFormate4(java.math.BigDecimal)</function-signature>
+    </function> 
+  <!-- 金额格式化 start --> 
+  
+  <!-- 键值映射start -->
+  <function>
+        <name>mpyn</name>
+        <function-class>cn.com.eju.deal.common.util.DisplayUtil</function-class>
+        <function-signature>java.lang.String mpyn(java.lang.Integer)</function-signature>
+    </function>    
+    
+    
+    <function>
+        <name>mpmw</name>
+        <function-class>cn.com.eju.deal.common.util.DisplayUtil</function-class>
+        <function-signature>java.lang.String mpmw(java.lang.Integer)</function-signature>
+    </function>    
+  
+      
+    <function>
+        <name>mphn</name>
+        <function-class>cn.com.eju.deal.common.util.DisplayUtil</function-class>
+        <function-signature>java.lang.String mphn(java.lang.Integer)</function-signature>
+    </function> 
+    
+     <function>
+        <name>mp</name>
+        <function-class>cn.com.eju.deal.common.util.DisplayUtil</function-class>
+        <function-signature>java.lang.String mp(java.lang.String,java.lang.Integer)</function-signature>
+    </function> 
+    <!-- 键值映射end-->
+     
+    <!-- 字符串链接 -->  
+     <function>
+        <name>join</name>
+        <function-class>cn.com.eju.deal.common.util.DisplayUtil</function-class>
+        <function-signature>java.lang.String join(java.util.List,java.lang.String)</function-signature>
+    </function> 
+    
+	 
+	<!-- 字典工具start -->
+	   <function>
+	        <name>dlist</name>
+	        <function-class>cn.com.eju.deal.common.util.DictUtil</function-class>
+	        <function-signature>java.util.List dictList(java.lang.Integer)</function-signature>
+	    </function>    
+   
+   <function>
+        <name>dval</name>
+        <function-class>cn.com.eju.deal.common.util.DictUtil</function-class>
+        <function-signature>java.util.List dictValue(java.lang.Integer)</function-signature>
+    </function> 
+    
+    <function>
+        <name>dstr</name>
+        <!-- 根据逗号隔开的字典值，获取字典字符串 -->
+        <function-class>cn.com.eju.deal.common.util.DictUtil</function-class>
+        <function-signature>java.util.List getDictListStr(java.lang.String)</function-signature>
+    </function>    
+    
+       
+  <!-- 字典工具end -->
+  
+  <function>
+        <name>cdislist</name>
+        <!-- <description>根据当前登录人城市ID，获取城区</description> -->
+        <function-class>cn.com.eju.deal.common.util.DisplayUtil</function-class>
+        <function-signature>java.util.List getCurrentDistrictList()</function-signature>
+    </function>    
+    
+    
+    
+    <function>
+        <name>ecs</name>
+        <!-- <description>根据当前登录人城市ID，获取交易中心</description> -->
+        <function-class>cn.com.eju.deal.common.util.DisplayUtil</function-class>
+        <function-signature>java.util.List getExchangeCenterList()</function-signature>
+    </function>   
+    
+     <function>
+        <name>ec</name>
+        <!-- <description>根据当交易中心ID，获取交易中心</description> -->
+        <function-class>cn.com.eju.deal.common.util.DisplayUtil</function-class>
+        <function-signature>com.eju.deal.user.model.ExchangeCenter getExchangeCenter(java.lang.Integer)</function-signature>
+    </function>  
+    
+     <function>
+        <name>ecn</name>
+      <!--   <description>根据当交易中心ID，获取交易中心名称</description> -->
+        <function-class>cn.com.eju.deal.common.util.DisplayUtil</function-class>
+        <function-signature>java.lang.String getExchangeCenterName(java.lang.Integer)</function-signature>
+    </function>    
+    
+    
+     <function>
+        <name>or1</name>
+        <function-class>cn.com.eju.deal.common.util.DisplayUtil</function-class>
+        <function-signature>java.lang.String or1(java.lang.String,java.lang.String)</function-signature>
+    </function>    
+     <function>
+        <name>dsp</name>
+        <function-class>cn.com.eju.deal.common.util.DisplayUtil</function-class>
+        <function-signature>java.lang.String getDisplayVal(java.lang.Integer,java.lang.Integer)</function-signature>
+    </function>    
+    
+     <function>
+        <name>cdsp</name>
+        <function-class>cn.com.eju.deal.common.util.DisplayUtil</function-class>
+        <function-signature>java.lang.String containsDisplay(java.lang.String,java.lang.String)</function-signature>
+    </function>    
+    
+    <function>
+    <!-- 根据城区编号，获取城区名称 -->
+        <name>disname</name>
+        <function-class>cn.com.eju.deal.common.util.DisplayUtil</function-class>
+        <function-signature>java.lang.String getDistrictName(java.lang.String)</function-signature>
+    </function>   
+    
+    
+    <function>
+        <name>chm</name>
+        <function-class>cn.com.eju.deal.common.util.DisplayUtil</function-class>
+        <function-signature>java.lang.String getCurrentYmdHm()</function-signature>
+    </function>    
+    
+    
+    
+    <function>
+        <name>nchm</name>
+        <function-class>cn.com.eju.deal.common.util.DisplayUtil</function-class>
+        <function-signature>java.lang.String getNextMonthCurrentYmdHm()</function-signature>
+    </function>   
+      
+    <function>
+    	<!-- 逗号隔开字符串转数组 -->
+        <name>commaToArray</name>
+        <function-class>cn.com.eju.deal.common.util.DisplayUtil</function-class>
+        <function-signature>java.lang.String[] commaToArray(java.lang.String)</function-signature>
+    </function>     
+    <function>
+    	<!-- 判断目标字符串是否包含在源字符串 -->
+        <name>existentStr</name>
+        <function-class>cn.com.eju.deal.common.util.DisplayUtil</function-class>
+        <function-signature>java.lang.Boolean existentStr(java.lang.String,java.lang.String)</function-signature>
+    </function>     
+    
+    <function>
+    	<!-- 符号替换，如 1,2,3到1;2;3 -->
+        <name>replace</name>
+        <function-class>cn.com.eju.deal.common.util.DisplayUtil</function-class>
+        <function-signature>java.lang.String replace(java.lang.String,java.lang.String,java.lang.String)</function-signature>
+    </function>     
+    
+     <function>
+    	<!-- 根据当前登录人交易中心ID，获取公积金类型 -->
+        <name>cfundtype</name>
+        <function-class>cn.com.eju.deal.common.util.DisplayUtil</function-class>
+        <function-signature>java.util.List getFundTypeList()</function-signature>
+    </function>     
+    
+     <function>
+    	<!-- 根据ID，获取公积金类型 名称-->
+        <name>ftname</name>
+        <function-class>cn.com.eju.deal.common.util.DisplayUtil</function-class>
+        <function-signature>java.lang.String getByFundTypeName(java.lang.Integer)</function-signature>
+    </function>     
+    
+    
+    
+</taglib>
